@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Arbella</title>
+<title>Arbella</title>
+
+<script>
+function setSail() {window.location.assign(document.getElementById('epistles').value + ".html");}
+</script>
 </head>
 
 <body>
 <center>
-	<h1>We Have Already Set Sail</h1>
-	<img src="resources/Arbella.jpg" alt="you must see our ship" style="width:495px;height:359px;">
+<h1>We Have Already Set Sail</h1>
+<img src="resources/Arbella.jpg" alt="you must see our ship" style="width:495px;height:359px;">
+<br>
+<input type="text" id="epistles" placeholder="Eleven Epistles">
+<button onclick="setSail();">Sail</button>
 </center>
-
 </body>
 
 </html>
