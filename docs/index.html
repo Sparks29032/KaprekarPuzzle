@@ -4,7 +4,7 @@
 <title>Arbella</title>
 
 <script>
-function setSail() {window.location.assign(document.getElementById('epistles').value + ".html");}
+function setSail() {window.location.assign(document.getElementById('epistles').value.toLowerCase().replace(' ', '').replace('-', '') + ".html");}
 </script>
 </head>
 
