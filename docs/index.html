@@ -3,15 +3,13 @@
 <head>
 <title>Arbella</title>
 
-<script>
-function setSail() {window.location.assign(document.getElementById('epistles').value.toLowerCase().replace(' ', '').replace('-', '') + ".html");}
-</script>
+<script src="scripts/setsail.js"></script>
 </head>
 
 <body>
 <center>
 <h1>We Have Already Set Sail</h1>
-<img src="resources/Arbella.jpg" alt="you must see our ship" style="width:495px;height:359px;">
+<img src="resources/Arbella.jpg" alt="peer inside our ship">
 <br>
 <input type="text" id="epistles" placeholder="Eleven Epistles">
 <button onclick="setSail();">Sail</button>

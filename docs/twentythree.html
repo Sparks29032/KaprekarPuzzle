@@ -3,13 +3,14 @@
 
 <head>
 <title>Voyage</title>
+<script src="scripts/keystone.js"></script>
 </head>
 
 <body>
 <center>
 <h1>On the Sea</h1>
-<p><img src="resources/Arctic_Star.jpg" alt="use my dimensions" style="width:495px;height:359px;"><br>
-<a href="current.html">Follow the Current</a>&nbsp;&nbsp;&nbsp;<a href="constant.html">Find the Constant</a></p>
+<p><img src="resources/Arctic_Star.jpg" alt="use my dimensions"><br>
+<a href="current.html" id="current" hidden>Follow the Current</a> <a href="constant.html" id="constant" hidden>Find the Constant</a> <input type="number" id="key" min="0" max="999" value="" onchange="verify();" onchange="verify();" onkeyup="verify();" onkeypress="verify();" onkeydown="verify();" onpaste="verify();" oncut="verify();"></p>	
 </center>
 </body>
 
